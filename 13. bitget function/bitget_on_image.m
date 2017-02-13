@@ -1,0 +1,17 @@
+img = imread('aerial.bmp');
+b = bitget(img,1);
+subplot(2,4,1);imshow(logical(b));title('Bit Plane 1');
+b = bitget(img,2);
+subplot(2,4,2);imshow(logical(b));title('Bit Plane 2');
+b = bitget(img,3);
+subplot(2,4,3);imshow(logical(b));title('Bit Plane 3');
+b = bitget(img,4);
+subplot(2,4,4);imshow(logical(b));title('Bit Plane 4');
+b = bitget(img,5);
+subplot(2,4,5);imshow(logical(b));title('Bit Plane 5');
+b = bitget(img,6);
+subplot(2,4,6);imshow(logical(b));title('Bit Plane 6');
+b = bitget(img,7);
+subplot(2,4,7);imshow(logical(b));title('Bit Plane 7');
+b = bitget(img,8);
+subplot(2,4,8);imshow(logical(b));title('Bit Plane 8');
